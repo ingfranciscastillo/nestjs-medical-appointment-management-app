@@ -23,7 +23,7 @@ import { QueueModule } from './modules/queue/queue.module';
 // Configuration
 import { AppController } from './app.controller';
 import { AppService } from './app.service';
-import { AuthModule } from './users/auth/auth.module';
+import { UsersModule } from './users/users.module';
 
 @Module({
   imports: [
